@@ -1,0 +1,31 @@
+//List Directories
+dir 
+
+//Make Directory
+cd /* where you want the directory to go */
+mkdir /* name */
+
+//Remove Directory
+rmdir /* directory name */
+
+//Open a File
+start /* filename */
+
+//Move file into a directory
+cd /* directory want to move into */
+cd //prints the current path of the directory
+//copy the path
+cd /* directory of file you want to move */
+move /* filename */ /* paste copied path */
+
+//Check and Change Time and date
+time
+
+//Find Command Keys
+help
+
+
+
+
+
+

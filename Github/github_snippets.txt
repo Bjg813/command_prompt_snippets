@@ -1,0 +1,51 @@
+esc:wq //escapes out of vi
+
+// Push updated files and directories to exisitng repository
+cd excisting-project
+git add .
+git status
+git commit -m "What you did"
+git push
+git status
+
+// Create a new repository and push directories and files
+Go to Github and create a repository
+cd existing-project
+git init
+git add --all
+git status
+git commit -m "Initial Commit"
+git remote add origin http://<Bitbucket Server URL>/scm/tis/website.git
+git push -u origin master
+
+// Remove files from repository
+git rm -r --cached .
+git add .
+git status
+git push 
+git commit -m "Add a comment"
+git status
+
+// Pull from repository
+git pull 
+
+// Abort: "Please commit your changes or stash them before you merge."
+git reset --hard
+git pull
+git status
+
+// Add a README.md file to repository
+cd existing-project
+touch README.md
+git status
+git add .
+git commit -m "Added README.md file"
+git push
+git status
+
+// Clone someone elses project
+Go to desired persons Repository on Github and cick "Clone or Download"
+Copy the Repository Url Path
+cd where you want the project to go to
+git clone /* Paste Repository URL path */
+git status
