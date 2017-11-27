@@ -18,6 +18,10 @@ cd //prints the current path of the directory
 cd /* directory of file you want to move */
 move /* filename */ /* paste copied path */
 
+//Delete file
+cd /* working directory *(/
+del /* filename */
+
 //Check and Change Time and date
 time
 
